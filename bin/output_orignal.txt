@@ -1,0 +1,251 @@
+Evaluating SSSP implemented on SEP-Graph for "soc-twitter" dataset
+
+Testing single GPU SSSP
+--------------------
+
+
+Loading graph /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/soc-twitter/soc-twitter-2010.undirected.random.weight.gr (gr)
+/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/soc-twitter/soc-twitter-2010.undirected.random.weight.gr has 21297772 nodes and 530051354 edges
+
+----- Running Hybrid Graph Engine -----
+
+The graph has 21297772 vertices, and 530051354 edges (average degree: 24.887644)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:103 HOST: Converting CSR to CSC...
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:126 HOST: Load graph time: 17667.997000 ms (excluded)
+Priority delta: 41
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:198 HOST: Init worklist: 1
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:202 HOST: InitGraph: 102.282000 ms (excluded)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:260 HOST: --------------Overhead--------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:261 HOST: Input active node: 0.253000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:262 HOST: Output active node: 0.233000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:263 HOST: Input workload: 1.033000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:264 HOST: Output workload: 1.049000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:265 HOST: Queue2Bitmap: 0.605000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:266 HOST: Bitmap2Queue: 0.499000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:267 HOST: Rebuild worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:268 HOST: Priority sample: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:269 HOST: Sort Worlist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:270 HOST: Unique Worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:271 HOST: --------------Time statistics---------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:272 HOST: Kernel time: 137.323975
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:273 HOST: Total time: 142.309998
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:274 HOST: Total rounds: 23
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:275 HOST: Time/round: 6.187391
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:278 HOST: --------------Engine info-------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:285 HOST: Force Push Load balancing: FINE_GRAINED
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:290 HOST: Force Pull Load balancing: FINE_GRAINED
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:294 HOST: Priority type: NONE
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:303 HOST: Fused kernel: NO
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:304 HOST: Max iteration reached: NO
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:307 HOST: -------------Misc-------------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:309 HOST: Device: Tesla V100-SXM2-16GB
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:310 HOST: Dataset: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/soc-twitter/soc-twitter-2010.undirected.random.weight.gr
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:312 HOST: Algo type: TRAVERSAL_SCHEME
+Warning: Result not checked
+
+Context status:
+	Endpoint map (virtual endpoint, physical device):  (-1, -1) (0, 0) (1, 1) (2, 2) (3, 3)
+	Event pools (device, events):  (0, 0) (1, 0) (2, 0) (3, 0)
+Overall: Test passed
+--------------
+Evaluating SSSP implemented on SEP-Graph for "kron" dataset
+
+Testing single GPU SSSP
+--------------------
+
+
+Loading graph /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/kron/kron_g500-logn21.undirected.random.weight.gr (gr)
+/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/kron/kron_g500-logn21.undirected.random.weight.gr has 2097152 nodes and 182082942 edges
+
+----- Running Hybrid Graph Engine -----
+
+The graph has 2097152 vertices, and 182082942 edges (average degree: 86.823914)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:103 HOST: Converting CSR to CSC...
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:126 HOST: Load graph time: 6749.723000 ms (excluded)
+Priority delta: 11
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:198 HOST: Init worklist: 1
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:202 HOST: InitGraph: 28.142000 ms (excluded)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:260 HOST: --------------Overhead--------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:261 HOST: Input active node: 0.088000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:262 HOST: Output active node: 0.093000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:263 HOST: Input workload: 0.129000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:264 HOST: Output workload: 0.151000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:265 HOST: Queue2Bitmap: 0.045000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:266 HOST: Bitmap2Queue: 0.038000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:267 HOST: Rebuild worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:268 HOST: Priority sample: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:269 HOST: Sort Worlist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:270 HOST: Unique Worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:271 HOST: --------------Time statistics---------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:272 HOST: Kernel time: 25.309000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:273 HOST: Total time: 26.322001
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:274 HOST: Total rounds: 8
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:275 HOST: Time/round: 3.290250
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:278 HOST: --------------Engine info-------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:285 HOST: Force Push Load balancing: FINE_GRAINED
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:290 HOST: Force Pull Load balancing: FINE_GRAINED
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:294 HOST: Priority type: NONE
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:303 HOST: Fused kernel: NO
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:304 HOST: Max iteration reached: NO
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:307 HOST: -------------Misc-------------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:309 HOST: Device: Tesla V100-SXM2-16GB
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:310 HOST: Dataset: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/kron/kron_g500-logn21.undirected.random.weight.gr
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:312 HOST: Algo type: TRAVERSAL_SCHEME
+Warning: Result not checked
+
+Context status:
+	Endpoint map (virtual endpoint, physical device):  (-1, -1) (0, 0) (1, 1) (2, 2) (3, 3)
+	Event pools (device, events):  (0, 0) (1, 0) (2, 0) (3, 0)
+Overall: Test passed
+--------------
+Evaluating SSSP implemented on SEP-Graph for "soc-LiveJournal" dataset
+
+Testing single GPU SSSP
+--------------------
+
+
+Loading graph /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/soc-LiveJournal/soc-LiveJournal1.undirected.random.weight.gr (gr)
+/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/soc-LiveJournal/soc-LiveJournal1.undirected.random.weight.gr has 4847571 nodes and 86220856 edges
+
+----- Running Hybrid Graph Engine -----
+
+The graph has 4847571 vertices, and 86220856 edges (average degree: 17.786404)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:103 HOST: Converting CSR to CSC...
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:126 HOST: Load graph time: 3053.351000 ms (excluded)
+Priority delta: 58
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:198 HOST: Init worklist: 1
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:202 HOST: InitGraph: 12.725000 ms (excluded)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:260 HOST: --------------Overhead--------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:261 HOST: Input active node: 0.266000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:262 HOST: Output active node: 0.241000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:263 HOST: Input workload: 0.540000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:264 HOST: Output workload: 0.718000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:265 HOST: Queue2Bitmap: 0.620000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:266 HOST: Bitmap2Queue: 0.114000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:267 HOST: Rebuild worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:268 HOST: Priority sample: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:269 HOST: Sort Worlist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:270 HOST: Unique Worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:271 HOST: --------------Time statistics---------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:272 HOST: Kernel time: 37.243999
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:273 HOST: Total time: 41.096001
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:274 HOST: Total rounds: 24
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:275 HOST: Time/round: 1.712333
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:278 HOST: --------------Engine info-------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:285 HOST: Force Push Load balancing: FINE_GRAINED
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:290 HOST: Force Pull Load balancing: FINE_GRAINED
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:294 HOST: Priority type: NONE
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:303 HOST: Fused kernel: NO
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:304 HOST: Max iteration reached: NO
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:307 HOST: -------------Misc-------------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:309 HOST: Device: Tesla V100-SXM2-16GB
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:310 HOST: Dataset: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/soc-LiveJournal/soc-LiveJournal1.undirected.random.weight.gr
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:312 HOST: Algo type: TRAVERSAL_SCHEME
+Warning: Result not checked
+
+Context status:
+	Endpoint map (virtual endpoint, physical device):  (-1, -1) (0, 0) (1, 1) (2, 2) (3, 3)
+	Event pools (device, events):  (0, 0) (1, 0) (2, 0) (3, 0)
+Overall: Test passed
+--------------
+Evaluating SSSP implemented on SEP-Graph for "road_usa" dataset
+
+Testing single GPU SSSP
+--------------------
+
+
+Loading graph /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/road_usa/road_usa.undirected.random.weight.gr (gr)
+/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/road_usa/road_usa.undirected.random.weight.gr has 23947347 nodes and 57708624 edges
+
+----- Running Hybrid Graph Engine -----
+
+The graph has 23947347 vertices, and 57708624 edges (average degree: 2.409813)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:103 HOST: Converting CSR to CSC...
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:126 HOST: Load graph time: 1499.344000 ms (excluded)
+Priority delta: 431
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:198 HOST: Init worklist: 1
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:202 HOST: InitGraph: 2.300000 ms (excluded)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:260 HOST: --------------Overhead--------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:261 HOST: Input active node: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:262 HOST: Output active node: 0.013000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:263 HOST: Input workload: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:264 HOST: Output workload: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:265 HOST: Queue2Bitmap: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:266 HOST: Bitmap2Queue: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:267 HOST: Rebuild worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:268 HOST: Priority sample: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:269 HOST: Sort Worlist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:270 HOST: Unique Worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:271 HOST: --------------Time statistics---------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:272 HOST: Kernel time: 161.733994
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:273 HOST: Total time: 161.865005
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:274 HOST: Total rounds: 12183
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:275 HOST: Time/round: 0.013286
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:278 HOST: --------------Engine info-------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:280 HOST: Force variant: ASYNC_PUSH_DD
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:285 HOST: Force Push Load balancing: NONE
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:296 HOST: Priority type: LOW_HIGH
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:297 HOST: Priority delta: 431.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:303 HOST: Fused kernel: YES
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:304 HOST: Max iteration reached: NO
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:307 HOST: -------------Misc-------------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:309 HOST: Device: Tesla V100-SXM2-16GB
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:310 HOST: Dataset: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/road_usa/road_usa.undirected.random.weight.gr
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:312 HOST: Algo type: TRAVERSAL_SCHEME
+Warning: Result not checked
+
+Context status:
+	Endpoint map (virtual endpoint, physical device):  (-1, -1) (0, 0) (1, 1) (2, 2) (3, 3)
+	Event pools (device, events):  (0, 0) (1, 0) (2, 0) (3, 0)
+Overall: Test passed
+--------------
+Evaluating SSSP implemented on SEP-Graph for "soc-orkut" dataset
+
+Testing single GPU SSSP
+--------------------
+
+
+Loading graph /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/soc-orkut/soc-orkut.undirected.random.weight.gr (gr)
+/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/soc-orkut/soc-orkut.undirected.random.weight.gr has 2997166 nodes and 212698418 edges
+
+----- Running Hybrid Graph Engine -----
+
+The graph has 2997166 vertices, and 212698418 edges (average degree: 70.966515)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:103 HOST: Converting CSR to CSC...
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:126 HOST: Load graph time: 8789.051000 ms (excluded)
+Priority delta: 14
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:198 HOST: Init worklist: 1
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:202 HOST: InitGraph: 31.150000 ms (excluded)
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:260 HOST: --------------Overhead--------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:261 HOST: Input active node: 0.219000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:262 HOST: Output active node: 0.196000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:263 HOST: Input workload: 0.360000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:264 HOST: Output workload: 0.491000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:265 HOST: Queue2Bitmap: 0.710000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:266 HOST: Bitmap2Queue: 0.071000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:267 HOST: Rebuild worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:268 HOST: Priority sample: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:269 HOST: Sort Worlist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:270 HOST: Unique Worklist: 0.000000
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:271 HOST: --------------Time statistics---------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:272 HOST: Kernel time: 71.322998
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:273 HOST: Total time: 74.455002
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:274 HOST: Total rounds: 19
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:275 HOST: Time/round: 3.918684
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:278 HOST: --------------Engine info-------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:285 HOST: Force Push Load balancing: FINE_GRAINED
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:290 HOST: Force Pull Load balancing: FINE_GRAINED
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:294 HOST: Priority type: NONE
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:303 HOST: Fused kernel: NO
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:304 HOST: Max iteration reached: NO
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:307 HOST: -------------Misc-------------------
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:309 HOST: Device: Tesla V100-SXM2-16GB
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:310 HOST: Dataset: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/dataset/soc-orkut/soc-orkut.undirected.random.weight.gr
+/GPUFS/nsccgz_zgchen_2/zyl/sep-graph/include/framework/framework.cuh:312 HOST: Algo type: TRAVERSAL_SCHEME
+Warning: Result not checked
+
+Context status:
+	Endpoint map (virtual endpoint, physical device):  (-1, -1) (0, 0) (1, 1) (2, 2) (3, 3)
+	Event pools (device, events):  (0, 0) (1, 0) (2, 0) (3, 0)
+Overall: Test passed
+--------------

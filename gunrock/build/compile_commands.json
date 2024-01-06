@@ -1,0 +1,132 @@
+[
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/gunrock",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -Dgunrock_EXPORTS -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp -fPIC   -Wno-deprecated-declarations -o CMakeFiles/gunrock.dir/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/gunrock",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -Dgunrock_EXPORTS -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp -fPIC   -Wno-deprecated-declarations -o CMakeFiles/gunrock.dir/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/shared_lib_tests",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/shared_lib_example.dir/simple_example.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/simple_example.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/simple_example.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/shared_lib_tests",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/shared_lib_pr.dir/shared_lib_pr.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_pr.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_pr.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/shared_lib_tests",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/shared_lib_cc.dir/shared_lib_cc.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_cc.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_cc.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/shared_lib_tests",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/shared_lib_bc.dir/shared_lib_bc.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_bc.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_bc.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/shared_lib_tests",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/shared_lib_sssp.dir/shared_lib_sssp.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_sssp.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_sssp.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/shared_lib_tests",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/shared_lib_bfs.dir/shared_lib_bfs.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_bfs.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_bfs.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/bc",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/bc.dir/__/__/gunrock/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/bc",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/bc.dir/__/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/bfs",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/bfs.dir/__/__/gunrock/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/bfs",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/bfs.dir/__/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/cc",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/cc.dir/__/__/gunrock/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/cc",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/cc.dir/__/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/pr",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/pr.dir/__/__/gunrock/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/pr",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/pr.dir/__/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/sssp",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/sssp.dir/__/__/gunrock/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/sssp",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/sssp.dir/__/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/hits",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/hits.dir/__/__/gunrock/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/hits",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/hits.dir/__/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/salsa",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/salsa.dir/__/__/gunrock/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/salsa",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/salsa.dir/__/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/wtf",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/wtf.dir/__/__/gunrock/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/wtf",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/wtf.dir/__/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/topk",
+  "command": "/app/compiler/gcc/5.5.0/bin/gcc -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/topk.dir/__/__/gunrock/util/gitsha1.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/gunrock/util/gitsha1.c"
+},
+{
+  "directory": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/tests/topk",
+  "command": "/app/compiler/gcc/5.5.0/bin/g++  -DGUNROCKVERSION=0.4.0 -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/boost_1_58_0/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/include -I/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/cub -I/GPUFS/app_GPU/compiler/CUDA/9.2.88/include   -Wno-deprecated-declarations -fopenmp   -Wno-deprecated-declarations -o CMakeFiles/topk.dir/__/__/externals/moderngpu/src/mgpuutil.cpp.o -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp",
+  "file": "/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/externals/moderngpu/src/mgpuutil.cpp"
+}
+]

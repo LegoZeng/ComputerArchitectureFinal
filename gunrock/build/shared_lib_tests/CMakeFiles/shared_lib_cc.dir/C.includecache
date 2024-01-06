@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//gunrock/gunrock.h
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+string.h
+-
+
+/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/shared_lib_tests/shared_lib_cc.c
+stdio.h
+-
+gunrock/gunrock.h
+-
+

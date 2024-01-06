@@ -1,0 +1,428 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /app/compiler/gcc/8.4.0/bin/g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_70151/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_70151.dir/build.make CMakeFiles/cmTC_70151.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70151.dir/CheckSymbolExists.c.o
+/GPUFS/app_GPU/compiler/gcc/8.4.0/bin/gcc   -fPIC    -o CMakeFiles/cmTC_70151.dir/CheckSymbolExists.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_70151
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70151.dir/link.txt --verbose=1
+/GPUFS/app_GPU/compiler/gcc/8.4.0/bin/gcc -fPIC     -rdynamic CMakeFiles/cmTC_70151.dir/CheckSymbolExists.c.o  -o cmTC_70151 
+CMakeFiles/cmTC_70151.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_70151] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_70151/fast] Error 2
+
+File /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_09f71/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_09f71.dir/build.make CMakeFiles/cmTC_09f71.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09f71.dir/CheckFunctionExists.c.o
+/GPUFS/app_GPU/compiler/gcc/8.4.0/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_09f71.dir/CheckFunctionExists.c.o   -c /GPUFS/app_GPU/application/cmake/3.9.0/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_09f71
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09f71.dir/link.txt --verbose=1
+/GPUFS/app_GPU/compiler/gcc/8.4.0/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_09f71.dir/CheckFunctionExists.c.o  -o cmTC_09f71 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_09f71] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_09f71/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_41054/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_41054.dir/build.make CMakeFiles/cmTC_41054.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41054.dir/CheckSymbolExists.c.o
+/GPUFS/app_GPU/compiler/gcc/8.4.0/bin/gcc   -fPIC    -o CMakeFiles/cmTC_41054.dir/CheckSymbolExists.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_41054
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41054.dir/link.txt --verbose=1
+/GPUFS/app_GPU/compiler/gcc/8.4.0/bin/gcc -fPIC     -rdynamic CMakeFiles/cmTC_41054.dir/CheckSymbolExists.c.o  -o cmTC_41054 
+CMakeFiles/cmTC_41054.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_41054] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_41054/fast] Error 2
+
+File /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7b002/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7b002.dir/build.make CMakeFiles/cmTC_7b002.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b002.dir/CheckFunctionExists.c.o
+/GPUFS/app_GPU/compiler/gcc/8.4.0/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7b002.dir/CheckFunctionExists.c.o   -c /GPUFS/app_GPU/application/cmake/3.9.0/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7b002
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b002.dir/link.txt --verbose=1
+/GPUFS/app_GPU/compiler/gcc/8.4.0/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7b002.dir/CheckFunctionExists.c.o  -o cmTC_7b002 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_7b002] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_7b002/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2a3b7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2a3b7.dir/build.make CMakeFiles/cmTC_2a3b7.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a3b7.dir/CheckSymbolExists.c.o
+/app/compiler/gcc/5.5.0/bin/gcc   -fPIC    -o CMakeFiles/cmTC_2a3b7.dir/CheckSymbolExists.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2a3b7
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a3b7.dir/link.txt --verbose=1
+/app/compiler/gcc/5.5.0/bin/gcc -fPIC     -rdynamic CMakeFiles/cmTC_2a3b7.dir/CheckSymbolExists.c.o  -o cmTC_2a3b7 
+CMakeFiles/cmTC_2a3b7.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_2a3b7] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_2a3b7/fast] Error 2
+
+File /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6bada/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6bada.dir/build.make CMakeFiles/cmTC_6bada.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6bada.dir/CheckFunctionExists.c.o
+/app/compiler/gcc/5.5.0/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6bada.dir/CheckFunctionExists.c.o   -c /GPUFS/app_GPU/application/cmake/3.9.0/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6bada
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bada.dir/link.txt --verbose=1
+/app/compiler/gcc/5.5.0/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6bada.dir/CheckFunctionExists.c.o  -o cmTC_6bada -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_6bada] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_6bada/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_07acd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_07acd.dir/build.make CMakeFiles/cmTC_07acd.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07acd.dir/CheckSymbolExists.c.o
+/app/compiler/gcc/5.5.0/bin/gcc   -fPIC    -o CMakeFiles/cmTC_07acd.dir/CheckSymbolExists.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_07acd
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07acd.dir/link.txt --verbose=1
+/app/compiler/gcc/5.5.0/bin/gcc -fPIC     -rdynamic CMakeFiles/cmTC_07acd.dir/CheckSymbolExists.c.o  -o cmTC_07acd 
+CMakeFiles/cmTC_07acd.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_07acd] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_07acd/fast] Error 2
+
+File /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_10726/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_10726.dir/build.make CMakeFiles/cmTC_10726.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10726.dir/CheckFunctionExists.c.o
+/app/compiler/gcc/5.5.0/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_10726.dir/CheckFunctionExists.c.o   -c /GPUFS/app_GPU/application/cmake/3.9.0/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10726
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10726.dir/link.txt --verbose=1
+/app/compiler/gcc/5.5.0/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_10726.dir/CheckFunctionExists.c.o  -o cmTC_10726 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_10726] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/gunrock/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_10726/fast] Error 2
+
+

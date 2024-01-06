@@ -1,0 +1,204 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_40c6e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_40c6e.dir/build.make CMakeFiles/cmTC_40c6e.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40c6e.dir/CheckSymbolExists.c.o
+/app/compiler/gcc/6.5.0/bin/gcc   -fPIC    -o CMakeFiles/cmTC_40c6e.dir/CheckSymbolExists.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_40c6e
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40c6e.dir/link.txt --verbose=1
+/app/compiler/gcc/6.5.0/bin/gcc -fPIC     CMakeFiles/cmTC_40c6e.dir/CheckSymbolExists.c.o  -o cmTC_40c6e 
+CMakeFiles/cmTC_40c6e.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_40c6e] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_40c6e/fast] Error 2
+
+File /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e7132/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e7132.dir/build.make CMakeFiles/cmTC_e7132.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7132.dir/CheckFunctionExists.c.o
+/app/compiler/gcc/6.5.0/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e7132.dir/CheckFunctionExists.c.o   -c /GPUFS/app_GPU/application/cmake/3.9.0/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7132
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7132.dir/link.txt --verbose=1
+/app/compiler/gcc/6.5.0/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e7132.dir/CheckFunctionExists.c.o  -o cmTC_e7132 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_e7132] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_e7132/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3c995/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3c995.dir/build.make CMakeFiles/cmTC_3c995.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c995.dir/CheckSymbolExists.c.o
+/app/compiler/gcc/6.5.0/bin/gcc   -fPIC    -o CMakeFiles/cmTC_3c995.dir/CheckSymbolExists.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3c995
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c995.dir/link.txt --verbose=1
+/app/compiler/gcc/6.5.0/bin/gcc -fPIC     CMakeFiles/cmTC_3c995.dir/CheckSymbolExists.c.o  -o cmTC_3c995 
+CMakeFiles/cmTC_3c995.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_3c995] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_3c995/fast] Error 2
+
+File /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ab327/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ab327.dir/build.make CMakeFiles/cmTC_ab327.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab327.dir/CheckFunctionExists.c.o
+/app/compiler/gcc/6.5.0/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ab327.dir/CheckFunctionExists.c.o   -c /GPUFS/app_GPU/application/cmake/3.9.0/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ab327
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab327.dir/link.txt --verbose=1
+/app/compiler/gcc/6.5.0/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ab327.dir/CheckFunctionExists.c.o  -o cmTC_ab327 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_ab327] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ab327/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cdf4c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cdf4c.dir/build.make CMakeFiles/cmTC_cdf4c.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cdf4c.dir/CheckSymbolExists.c.o
+/app/compiler/gcc/6.5.0/bin/gcc   -fPIC    -o CMakeFiles/cmTC_cdf4c.dir/CheckSymbolExists.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cdf4c
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdf4c.dir/link.txt --verbose=1
+/app/compiler/gcc/6.5.0/bin/gcc -fPIC     CMakeFiles/cmTC_cdf4c.dir/CheckSymbolExists.c.o  -o cmTC_cdf4c 
+CMakeFiles/cmTC_cdf4c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_cdf4c] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_cdf4c/fast] Error 2
+
+File /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f4461/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f4461.dir/build.make CMakeFiles/cmTC_f4461.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4461.dir/CheckFunctionExists.c.o
+/app/compiler/gcc/6.5.0/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f4461.dir/CheckFunctionExists.c.o   -c /GPUFS/app_GPU/application/cmake/3.9.0/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f4461
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4461.dir/link.txt --verbose=1
+/app/compiler/gcc/6.5.0/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f4461.dir/CheckFunctionExists.c.o  -o cmTC_f4461 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_f4461] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_f4461/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_99a52/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_99a52.dir/build.make CMakeFiles/cmTC_99a52.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99a52.dir/CheckSymbolExists.c.o
+/app/compiler/gcc/6.5.0/bin/gcc   -fPIC    -o CMakeFiles/cmTC_99a52.dir/CheckSymbolExists.c.o   -c /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_99a52
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99a52.dir/link.txt --verbose=1
+/app/compiler/gcc/6.5.0/bin/gcc -fPIC     CMakeFiles/cmTC_99a52.dir/CheckSymbolExists.c.o  -o cmTC_99a52 
+CMakeFiles/cmTC_99a52.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_99a52] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_99a52/fast] Error 2
+
+File /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c34b8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c34b8.dir/build.make CMakeFiles/cmTC_c34b8.dir/build
+gmake[1]: Entering directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c34b8.dir/CheckFunctionExists.c.o
+/app/compiler/gcc/6.5.0/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c34b8.dir/CheckFunctionExists.c.o   -c /GPUFS/app_GPU/application/cmake/3.9.0/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c34b8
+/GPUFS/app_GPU/application/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c34b8.dir/link.txt --verbose=1
+/app/compiler/gcc/6.5.0/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c34b8.dir/CheckFunctionExists.c.o  -o cmTC_c34b8 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_c34b8] Error 1
+gmake[1]: Leaving directory `/GPUFS/nsccgz_zgchen_2/zyl/ppopp19-artifact/groute/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c34b8/fast] Error 2
+
+
